@@ -1,10 +1,9 @@
 {
   "name": "wireless-tools",
-  "version": "0.19.0",
+  "version": "0.1.0",
   "description": "Wireless tools for Node.js",
-  "author": "Christopher M. Baker",
+  "author": "Yogesh Kapuriya",
   "license": "MIT",
-  "homepage": "https://github.com/bakerface/wireless-tools",
   "main": "wireless-tools.js",
   "keywords": [
     "wireless",
@@ -20,30 +19,16 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bakerface/wireless-tools.git"
+    "url": "git+https://github.com/ymkapuriya/wireless-tools.git"
   },
   "bugs": {
-    "url": "https://github.com/bakerface/wireless-tools/issues"
+    "url": "https://github.com/ymkapuriya/wireless-tools/issues"
   },
-  "scripts": {
-    "test": "istanbul cover node_modules/.bin/_mocha",
-    "posttest": "istanbul check-coverage --statements 100 --functions 100 --branches 100 --lines 100",
-    "codeclimate": "codeclimate-test-reporter < coverage/lcov.info"
-  },
+  "scripts": {},
   "xo": {
     "space": true
   },
-  "devDependencies": {
-    "codeclimate-test-reporter": "0.5.1",
-    "istanbul": "^0.4.3",
-    "mocha": "9.0.3",
-    "should": "^9.0.2",
-    "xo": "0.44.0"
-  },
-  "contributors": [
-    "Athom <support@athom.com> (https://www.athom.com/en/)",
-    "Wink <support@wink.com> (https://www.wink.com/)"
-  ],
+  "devDependencies": {},
   "directories": {
     "test": "test"
   }
